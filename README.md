@@ -47,7 +47,7 @@ Example:
         initialize: function () {
             // call addViewStates to add states to this view. 
             // creates a 'states' object to hold initialized view states
-            this.addViewStates(this.theseStates);
+            this.addViewStates(this.myStates);
             // call setViewState to set the state of the view
             this.setViewState(this.states.foo);
             this.setViewState(this.states.bar);
