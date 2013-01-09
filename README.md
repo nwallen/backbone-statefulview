@@ -7,8 +7,8 @@ Provides Backbone.StatefulView which helps you keep a Backbone app tidy  with st
 
 Example:
 
-'''javascript
-Backbone.StatefulView.extend({
+
+    Backbone.StatefulView.extend({
     
         // all my states will inherit this state
         baseState: {     
@@ -61,4 +61,4 @@ Backbone.StatefulView.extend({
         },
          
     });
-'''
+
