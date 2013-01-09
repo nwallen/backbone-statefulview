@@ -11,43 +11,36 @@ Example:
     Backbone.StatefulView.extend({
     
         // all my states will inherit this state
-        baseState: {     
+        baseState: {
              enter: function () {
                 console.log('base state is entered');   
-             },   
-             
+             },
              exit: function () { 
                console.log('base state is exited');   
-             },   
+             },
         },
 
         // these are the states for my view
         myStates: {
-            foo: {
-                 
+            
+            foo: {    
                  enter: function () {      
                    console.log('state foo is entered');   
-                 },   
-                 
+                 },        
                  exit: function () { 
                    console.log('state foo is exited');   
                  },   
-                
             },
 
             bar: {
-                 
                  enter: function () { 
                    console.log('state bar is entered');   
-                  },   
-                 
+                 },   
                  exit: function () {
-                  
-                   console.log('state bar is exited');   
-                     
-                  },   
-                
+                   console.log('state bar is exited');       
+                 },   
             },
+            
         },
 
 
